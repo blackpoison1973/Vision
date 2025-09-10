@@ -1,36 +1,115 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌌 Vision — AI-Powered Image Editor  
 
-## Getting Started
+Vision is a modern **AI image editing platform** built with **React 19, Next.js 15, Tailwind CSS, Convex, Clerk Billing, Fabric.js, ImageKit, and Shadcn UI**.  
+It helps you **create, edit, and enhance** your projects with advanced AI tools like **background removal, image extender, and smart retouching** — all inside a **sleek, responsive interface**.  
 
-First, run the development server:
+<p align="center">
+  <img src="https://your-demo-screenshot-url.png" alt="Vision Preview" width="800"/>
+</p>  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- 📂 **Project Management** — Create, manage, and organize image projects  
+- 🖼 **Crop & Resize** — Intuitive and precise canvas controls  
+- 🎨 **Color Adjustments** — Basic and advanced tools for image correction  
+- ✍️ **Text Editing** — Add stylish text overlays with custom fonts  
+- 🤖 **AI-Powered Tools**  
+  - Background remover  
+  - AI image extender  
+  - Retouch & upscaler  
+- ☁️ **Cloud Sync** — Access your projects anywhere  
+- 🔒 **Authentication & Billing** — Powered by Clerk (secure auth + billing system)  
+- 🌐 **Fast Media Delivery** — Optimized with ImageKit CDN  
+- ⚡ **Realtime Backend** — Convex ensures smooth live collaboration  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Tech Stack  
 
-To learn more about Next.js, take a look at the following resources:
+| Technology     | Logo                                                                 | Description                          |
+|----------------|----------------------------------------------------------------------|--------------------------------------|
+| **React 19**   | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="32"/> | Frontend library for building UIs     |
+| **Next.js 15** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="32"/> | Full-stack React framework            |
+| **Tailwind CSS** | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="32"/> | Utility-first CSS framework          |
+| **Convex**     | <img src="https://commons.wikimedia.org/wiki/File:Convex_Logo.png" width="32"/> | Realtime serverless backend          |
+| **Clerk**      | <img src="https://assets.streamlinehq.com/image/private/w_30,h_30,ar_1/f_auto/v1/icons/logos/clerk-uvna1mxd54k50cohb8o2i.png" width="32"/> | Authentication & subscription billing |
+| **Fabric.js**  | <img src="https://avatars.githubusercontent.com/u/905248?s=200&v=4" width="32"/> | Canvas-based editing                  |
+| **ImageKit**   | <img src="https://www.vectorlogo.zone/logos/imagekitio/imagekitio-icon.svg" width="32"/> | Image optimization & CDN              |
+| **Shadcn UI**  | <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="32"/> | Accessible UI components              |
+| **Lucide React** | <img src="https://lucide.dev/logo.light.svg" width="32"/> | Icon library for React apps            |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 💳 Plans  
 
-## Deploy on Vercel
+Vision comes with two simple plans:  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Plan      | Price | Features                                                                 |
+|-----------|-------|--------------------------------------------------------------------------|
+| **Free** | $0    | Up to 3 projects · 20 exports/month · Crop & Resize · Basic adjustments   |
+| **Pro**  | $12/mo| Unlimited projects · Unlimited exports · All AI tools · Retouch & upscale |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👉 Billing & subscriptions are handled securely with **Clerk Billing**.  
+
+---
+
+## 🌍 Roadmap  
+
+Planned features include:  
+- 🔮 AI Style Transfer (turn images into unique art styles)  
+- 🎥 AI Video Tools (background removal & frame editing)  
+- 🤝 Team collaboration workspaces  
+- 📦 Export in multiple formats (WebP, SVG, PSD support)  
+- 🧩 Plugin System (third-party AI models & filters)  
+- 📊 Project Analytics (track exports, AI tool usage, and more)  
+
+---
+
+## 📚 Why Vision?  
+
+- 🚀 **All-in-One Editing** — No need to juggle multiple apps. Vision combines essential editing tools with AI superpowers.  
+- 🔒 **Privacy First** — Secure auth, billing, and project storage with Clerk.  
+- ⚡ **Performance** — Optimized with Next.js 15, ImageKit CDN, and Convex realtime backend.  
+- 🎨 **Modern UI/UX** — Built with Shadcn UI & Tailwind CSS for a sleek, responsive design.  
+
+---
+
+---
+
+## 💬 **Contribute to Vision**  
+
+We welcome contributions from developers and enthusiasts! To contribute:  
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch:
+    ```bash
+    git checkout -b feature-branch
+    ```
+3. 🖊️ Commit your changes:
+    ```bash
+    git commit -m "Add your feature"
+    ```
+4. 🚀 Push the branch:
+    ```bash
+    git push origin feature-branch
+    ```
+5. 🔀 Open a pull request to merge your changes.
+
+---
+
+## 📬 **Contact & Support**  
+
+💬 **Have any questions or suggestions? Feel free to reach out!**  
+
+📧 **Email**: [soumojitbanerjee22@gmail.com](mailto:soumojitbanerjee22@gmail.com)  
+🔗 **LinkedIn**: [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)  
+
+---
+
+## 👨‍💻 **Developed by [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)**  
+
+If you enjoyed using this project, please ⭐ it on GitHub! 🌟  
+
+---
