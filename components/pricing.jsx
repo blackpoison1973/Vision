@@ -15,6 +15,7 @@ import {
   Wand2,
 } from "lucide-react";
 import { Button } from "./ui/button";
+import { toast } from "sonner"; // ✅ added toast
 
 const featureIcons = {
   projects: <Layers className="w-5 h-5 text-cyan-400" />,
@@ -38,11 +39,17 @@ const PricingCard = ({
   buttonText,
 }) => {
   const [ref, isVisible] = useIntersectionObserver();
-  const { has } = useAuth();
+  const { has, isSignedIn } = useAuth();
   const isCurrentPlan = id ? has?.({ plan: id }) : false;
 
   const handlePopup = async () => {
     if (isCurrentPlan) return;
+
+    // ✅ Check if user is signed in
+    if (!isSignedIn) {
+      toast.error("Please sign in first to upgrade.");
+      return;
+    }
 
     try {
       if (window.Clerk && window.Clerk.__internal_openCheckout) {
@@ -54,6 +61,7 @@ const PricingCard = ({
       }
     } catch (error) {
       console.error("Checkout error:", error);
+      toast.error("Something went wrong with checkout.");
     }
   };
 
