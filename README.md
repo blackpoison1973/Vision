@@ -21,7 +21,6 @@ It helps you **create, edit, and enhance** your projects with advanced AI tools 
   - Retouch & upscaler  
 - ☁️ **Cloud Sync** — Access your projects anywhere  
 - 🔒 **Authentication & Billing** — Powered by Clerk (secure auth + billing system)  
-- 🌐 **Fast Media Delivery** — Optimized with ImageKit CDN  
 - ⚡ **Realtime Backend** — Convex ensures smooth live collaboration  
 
 ---
@@ -30,15 +29,15 @@ It helps you **create, edit, and enhance** your projects with advanced AI tools 
 
 | Technology     | Logo                                                                 | Description                          |
 |----------------|----------------------------------------------------------------------|--------------------------------------|
-| **React 19**   | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="32"/> | Frontend library for building UIs     |
-| **Next.js 15** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="32"/> | Full-stack React framework            |
-| **Tailwind CSS** | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="32"/> | Utility-first CSS framework          |
-| **Convex**     | <img src="https://github.com/soumojit622/Vision/blob/master/public/convex.svg" width="32"/> | Realtime serverless backend          |
-| **Clerk**      | <img src="https://github.com/soumojit622/Vision/blob/master/public/clerk.svg" width="32"/> | Authentication & subscription billing |
-| **Fabric.js**  | <img src="https://github.com/soumojit622/Vision/blob/master/public/fabric.png" width="32"/> | Canvas-based editing                  |
-| **ImageKit**   | <img src="https://github.com/soumojit622/Vision/blob/master/public/imagekit.jpeg" width="32"/> | Image optimization & CDN              |
-| **Shadcn UI**  | <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="32"/> | Accessible UI components              |
-| **Lucide React** | <img src="https://lucide.dev/logo.light.svg" width="32"/> | Icon library for React apps            |
+| **⚛️ React 19**   | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="32"/> | Frontend library for building UIs     |
+| **▲ Next.js 15** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="32"/> | Full-stack React framework            |
+| **🎨 Tailwind CSS** | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="32"/> | Utility-first CSS framework          |
+| **🌀 Convex**     | <img src="https://github.com/soumojit622/Vision/blob/master/public/convex.svg" width="32"/> | Realtime serverless backend          |
+| **🔑 Clerk**      | <img src="https://github.com/soumojit622/Vision/blob/master/public/clerk.svg" width="32"/> | Authentication & subscription billing |
+| **🖌️ Fabric.js**  | <img src="https://github.com/soumojit622/Vision/blob/master/public/fabric.png" width="32"/> | Canvas-based editing                  |
+| **⚡ ImageKit**   | <img src="https://github.com/soumojit622/Vision/blob/master/public/imagekit.jpeg" width="32"/> | Image optimization & CDN              |
+| **📦 Shadcn UI**  | <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="32"/> | Accessible UI components              |
+| **✨ Lucide React** | <img src="https://lucide.dev/logo.light.svg" width="32"/> | Icon library for React apps            |
 
 ---
 
@@ -48,8 +47,8 @@ Vision comes with two simple plans:
 
 | Plan      | Price | Features                                                                 |
 |-----------|-------|--------------------------------------------------------------------------|
-| **Free** | $0    | Up to 3 projects · 20 exports/month · Crop & Resize · Basic adjustments   |
-| **Pro**  | $12/mo| Unlimited projects · Unlimited exports · All AI tools · Retouch & upscale |
+| 🆓 **Free** | $0    | Up to 3 projects · 20 exports/month · Crop & Resize · Basic adjustments   |
+| 👑 **Pro**  | $12/mo| Unlimited projects · Unlimited exports · All AI tools · Retouch & upscale |
 
 👉 Billing & subscriptions are handled securely with **Clerk Billing**.  
 
@@ -58,12 +57,12 @@ Vision comes with two simple plans:
 ## 🌍 Roadmap  
 
 Planned features include:  
-- 🔮 AI Style Transfer (turn images into unique art styles)  
-- 🎥 AI Video Tools (background removal & frame editing)  
-- 🤝 Team collaboration workspaces  
-- 📦 Export in multiple formats (WebP, SVG, PSD support)  
-- 🧩 Plugin System (third-party AI models & filters)  
-- 📊 Project Analytics (track exports, AI tool usage, and more)  
+- 🔮 **AI Style Transfer** (turn images into unique art styles)  
+- 🎥 **AI Video Tools** (background removal & frame editing)  
+- 🤝 **Team Collaboration Workspaces**  
+- 📦 **Export in Multiple Formats** (WebP, SVG, PSD support)  
+- 🧩 **Plugin System** (third-party AI models & filters)  
+- 📊 **Project Analytics** (track exports, AI tool usage, and more)  
 
 ---
 
@@ -76,30 +75,28 @@ Planned features include:
 
 ---
 
----
+## 💬 Contribute to Vision  
 
-## 💬 **Contribute to Vision**  
+We welcome contributions from developers and enthusiasts!  
 
-We welcome contributions from developers and enthusiasts! To contribute:  
-
-1. 🍴 Fork the repository.
-2. 🌿 Create a new branch:
+1. 🍴 Fork the repository.  
+2. 🌿 Create a new branch:  
     ```bash
     git checkout -b feature-branch
     ```
-3. 🖊️ Commit your changes:
+3. 🖊️ Commit your changes:  
     ```bash
     git commit -m "Add your feature"
     ```
-4. 🚀 Push the branch:
+4. 🚀 Push the branch:  
     ```bash
     git push origin feature-branch
     ```
-5. 🔀 Open a pull request to merge your changes.
+5. 🔀 Open a pull request.  
 
 ---
 
-## 📬 **Contact & Support**  
+## 📬 Contact & Support  
 
 💬 **Have any questions or suggestions? Feel free to reach out!**  
 
@@ -108,8 +105,6 @@ We welcome contributions from developers and enthusiasts! To contribute:
 
 ---
 
-## 👨‍💻 **Developed by [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)**  
+## 👨‍💻 Developed by [Soumojit Banerjee](https://www.linkedin.com/in/soumojit-banerjee-4914b3228/)  
 
 If you enjoyed using this project, please ⭐ it on GitHub! 🌟  
-
----
