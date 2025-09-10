@@ -35,8 +35,9 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <div className="text-center z-10 px-6">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden px-4 sm:px-6 lg:px-8">
+      <div className="text-center z-10 max-w-6xl w-full">
+        {/* Heading + Subtext */}
         <div
           className={`transition-all duration-1000 ${
             textVisible
@@ -58,12 +59,13 @@ const HeroSection = () => {
             effortlessly.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-12">
-            <Link href="/dashboard">
+          {/* CTA Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-12">
+            <Link href="/dashboard" className="w-full sm:w-auto">
               <Button
                 variant="primary"
                 size="xl"
-                className="flex items-center gap-2"
+                className="w-full sm:w-auto flex items-center gap-2"
               >
                 <Rocket className="w-5 h-5" />
                 Get Started
@@ -72,7 +74,7 @@ const HeroSection = () => {
             <Button
               variant="glass"
               size="xl"
-              className="flex items-center gap-2"
+              className="w-full sm:w-auto flex items-center gap-2"
             >
               <PlayCircle className="w-5 h-5" />
               View Demo
@@ -80,63 +82,80 @@ const HeroSection = () => {
           </div>
         </div>
 
-        {/* 3D Demo Interface */}
+        {/* Demo Interface */}
         <div
-          className={`relative max-w-4xl mx-auto transition-all duration-1000 ${
+          className={`relative transition-all duration-1000 max-w-4xl mx-auto ${
             textVisible
               ? "opacity-100 translate-y-0"
               : "opacity-0 translate-y-20"
-          } ${demoHovered ? "transform scale-105 rotate-y-6" : ""}`}
+          } ${
+            demoHovered
+              ? "transform scale-[1.02] lg:scale-105 rotate-y-3 lg:rotate-y-6"
+              : ""
+          }`}
           onMouseEnter={() => setDemoHovered(true)}
           onMouseLeave={() => setDemoHovered(false)}
-          style={{ perspective: "1000px" }}
+          style={{ perspective: "1200px" }}
         >
-          <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-3xl p-6 transform-gpu shadow-2xl shadow-blue-500/20">
-            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-2xl p-8 min-h-96">
-              <div className="flex items-center justify-between mb-6">
+          <div className="backdrop-blur-lg bg-white/10 border border-white/20 rounded-2xl sm:rounded-3xl p-4 sm:p-6 shadow-2xl shadow-blue-500/20">
+            <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-xl sm:rounded-2xl p-4 sm:p-8 min-h-[18rem] sm:min-h-[22rem] lg:min-h-[26rem]">
+              {/* Top bar */}
+              <div className="flex items-center justify-between mb-4 sm:mb-6">
                 <div className="flex space-x-2">
-                  <div className="w-3 h-3 bg-red-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-yellow-500 rounded-full"></div>
-                  <div className="w-3 h-3 bg-green-500 rounded-full"></div>
+                  <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 bg-red-500 rounded-full"></div>
+                  <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 bg-yellow-500 rounded-full"></div>
+                  <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 bg-green-500 rounded-full"></div>
                 </div>
-                <div className="text-gray-400 text-sm">Vision</div>
+                <div className="text-gray-400 text-xs sm:text-sm">Vision</div>
               </div>
 
-              <div className="grid grid-cols-4 gap-4 mb-6">
+              {/* Tool Grid */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-6">
                 {[
                   {
-                    icon: <Crop className="w-6 h-6 mx-auto text-blue-400" />,
+                    icon: (
+                      <Crop className="w-5 h-5 sm:w-6 sm:h-6 mx-auto text-blue-400" />
+                    ),
                     label: "Crop",
                   },
                   {
-                    icon: <Ruler className="w-6 h-6 mx-auto text-blue-400" />,
+                    icon: (
+                      <Ruler className="w-5 h-5 sm:w-6 sm:h-6 mx-auto text-blue-400" />
+                    ),
                     label: "Resize",
                   },
                   {
-                    icon: <Palette className="w-6 h-6 mx-auto text-blue-400" />,
+                    icon: (
+                      <Palette className="w-5 h-5 sm:w-6 sm:h-6 mx-auto text-blue-400" />
+                    ),
                     label: "Enhance",
                   },
                   {
                     icon: (
-                      <Sparkles className="w-6 h-6 mx-auto text-blue-400" />
+                      <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 mx-auto text-blue-400" />
                     ),
                     label: "AI Tools",
                   },
                 ].map((tool, index) => (
                   <div
                     key={index}
-                    className="backdrop-blur-lg bg-blue-500/10 rounded-xl p-4 text-center hover:bg-blue-500/20 transition-all cursor-pointer border border-blue-400/20"
+                    className="backdrop-blur-lg bg-blue-500/10 rounded-lg sm:rounded-xl p-3 sm:p-4 text-center hover:bg-blue-500/20 transition-all cursor-pointer border border-blue-400/20"
                     title={tool.label}
                   >
-                    <div className="mb-2">{tool.icon}</div>
-                    <div className="text-xs text-gray-300">{tool.label}</div>
+                    <div className="mb-1 sm:mb-2">{tool.icon}</div>
+                    <div className="text-[10px] sm:text-xs text-gray-300">
+                      {tool.label}
+                    </div>
                   </div>
                 ))}
               </div>
 
+              {/* Canvas Preview */}
               <div className="flex items-center justify-center">
-                <div className="w-full h-48 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 rounded-2xl shadow-2xl shadow-blue-500/50 flex items-center justify-center">
-                  <div className="text-white font-bold">Interactive Canvas</div>
+                <div className="w-full h-32 sm:h-40 lg:h-48 bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 rounded-xl sm:rounded-2xl shadow-2xl shadow-blue-500/50 flex items-center justify-center">
+                  <div className="text-white font-semibold sm:font-bold text-sm sm:text-base lg:text-lg">
+                    Interactive Canvas
+                  </div>
                 </div>
               </div>
             </div>
@@ -156,7 +175,7 @@ const App = () => {
       <FeaturesSection />
       <PricingSection />
 
-      <TestimonialsSection/>
+      <TestimonialsSection />
 
       {/* Final CTA Section */}
       <section className="py-24 text-center bg-gradient-to-b from-slate-900 via-slate-950 to-slate-900 relative overflow-hidden">
