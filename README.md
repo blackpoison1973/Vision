@@ -4,7 +4,7 @@ Vision is a modern **AI image editing platform** built with **React 19, Next.js 
 It helps you **create, edit, and enhance** your projects with advanced AI tools like **background removal, image extender, and smart retouching** — all inside a **sleek, responsive interface**.  
 
 <p align="center">
-  <img src="https://your-demo-screenshot-url.png" alt="Vision Preview" width="800"/>
+  <img src="https://github.com/soumojit622/Vision/blob/master/public/banner.jpg" alt="Vision Preview" width="800"/>
 </p>  
 
 ---
@@ -33,10 +33,10 @@ It helps you **create, edit, and enhance** your projects with advanced AI tools 
 | **React 19**   | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="32"/> | Frontend library for building UIs     |
 | **Next.js 15** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="32"/> | Full-stack React framework            |
 | **Tailwind CSS** | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="32"/> | Utility-first CSS framework          |
-| **Convex**     | <img src="https://commons.wikimedia.org/wiki/File:Convex_Logo.png" width="32"/> | Realtime serverless backend          |
-| **Clerk**      | <img src="https://assets.streamlinehq.com/image/private/w_30,h_30,ar_1/f_auto/v1/icons/logos/clerk-uvna1mxd54k50cohb8o2i.png" width="32"/> | Authentication & subscription billing |
-| **Fabric.js**  | <img src="https://avatars.githubusercontent.com/u/905248?s=200&v=4" width="32"/> | Canvas-based editing                  |
-| **ImageKit**   | <img src="https://www.vectorlogo.zone/logos/imagekitio/imagekitio-icon.svg" width="32"/> | Image optimization & CDN              |
+| **Convex**     | <img src="https://github.com/soumojit622/Vision/blob/master/public/convex.svg" width="32"/> | Realtime serverless backend          |
+| **Clerk**      | <img src="https://github.com/soumojit622/Vision/blob/master/public/clerk.svg" width="32"/> | Authentication & subscription billing |
+| **Fabric.js**  | <img src="https://github.com/soumojit622/Vision/blob/master/public/fabric.png" width="32"/> | Canvas-based editing                  |
+| **ImageKit**   | <img src="https://github.com/soumojit622/Vision/blob/master/public/imagekit.jpeg" width="32"/> | Image optimization & CDN              |
 | **Shadcn UI**  | <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="32"/> | Accessible UI components              |
 | **Lucide React** | <img src="https://lucide.dev/logo.light.svg" width="32"/> | Icon library for React apps            |
 
