@@ -1,71 +1,91 @@
-# 🌌 Vision — AI-Powered Image Editor
+# 🌌 Vision — AI-Powered Image Editor  
 
 Vision is a modern **AI image editing platform** built with **React 19, Next.js 15, Tailwind CSS, Convex, Clerk, Fabric.js, ImageKit, and Shadcn UI**.  
-It helps you **create, edit, and enhance** your projects with advanced AI tools like background removal, image extender, and smart retouching — all inside a sleek, responsive UI.
+It helps you **create, edit, and enhance** your projects with advanced AI tools like **background removal, image extender, and smart retouching** — all inside a **sleek, responsive interface**.  
 
 <p align="center">
   <img src="https://your-demo-screenshot-url.png" alt="Vision Preview" width="800"/>
-</p>
+</p>  
 
 ---
 
-## ✨ Features
+## ✨ Key Features  
 
-- 📂 **Project Management** — Create and organize your image projects  
-- 🖼 **Crop & Resize** — Quick and intuitive canvas controls  
-- 🎨 **Color Adjustments** — Basic and advanced image corrections  
-- ✍️ **Text Editing** — Add stylish text overlays  
-- 🤖 **AI Tools**  
+- 📂 **Project Management** — Create, manage, and organize unlimited image projects  
+- 🖼 **Crop & Resize** — Intuitive and precise canvas controls  
+- 🎨 **Color Adjustments** — Both basic and advanced tools for image correction  
+- ✍️ **Text Editing** — Add stylish text overlays with custom fonts  
+- 🤖 **AI-Powered Tools**  
   - Background remover  
-  - Image extender  
+  - AI image extender  
   - Retouch & upscaler  
-- ☁️ **Cloud Sync** — Your projects, anywhere  
+- ☁️ **Cloud Sync** — Access your projects anywhere, anytime  
+- 🔒 **Secure Authentication** — Powered by Clerk  
+- 💳 **Subscription Plans** — Free tier + Pro plan with premium AI features  
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 Tech Stack  
 
-- **Frontend**: [React 19](https://react.dev/), [Next.js 15](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)  
-- **Backend**: [Convex](https://convex.dev/) (realtime serverless backend)  
-- **Authentication**: [Clerk](https://clerk.com/)  
-- **Canvas & Editing**: [Fabric.js](http://fabricjs.com/)  
-- **Media Optimization**: [ImageKit](https://imagekit.io/)  
-- **UI Components**: [Shadcn UI](https://ui.shadcn.com/), [Lucide React](https://lucide.dev/)  
-- **Payments**: [Stripe](https://stripe.com/)  
-
----
-
-## 💳 Pricing
-
-Vision comes with a **Free** and **Pro** plan:
-
-| Plan      | Features                                                                 |
-|-----------|--------------------------------------------------------------------------|
-| **Free** | Up to 3 projects · 20 exports/month · Crop & Resize · Basic adjustments   |
-| **Pro**  | Unlimited projects · Unlimited exports · All AI tools · Retouch & upscale |
+| Technology | Description | Icon |
+|------------|-------------|------|
+| **React 19** | Frontend library for UI | ⚛️ |
+| **Next.js 15** | Full-stack React framework | ▲ |
+| **Tailwind CSS** | Utility-first CSS styling | 🎨 |
+| **Convex** | Realtime serverless backend | 🔄 |
+| **Clerk** | Authentication & user management | 🔐 |
+| **Fabric.js** | Canvas-based editing | 🖌️ |
+| **ImageKit** | Image optimization & CDN | 🖼️ |
+| **Shadcn UI** | Modern, accessible UI components | 🧩 |
+| **Lucide React** | Beautiful icons | ✨ |
+| **Stripe** | Payments & subscriptions | 💳 |
 
 ---
 
-## 🤝 Contributing
+## 💳 Pricing  
+
+Vision offers **flexible pricing** for creators and professionals:  
+
+| Plan      | Price | Features                                                                 |
+|-----------|-------|--------------------------------------------------------------------------|
+| **Free** | $0    | Up to 3 projects · 20 exports/month · Crop & Resize · Basic adjustments   |
+| **Pro**  | $12/mo| Unlimited projects · Unlimited exports · All AI tools · Retouch & upscale |
+
+👉 Upgrade to **Pro** and unlock the full power of Vision’s AI editing suite.  
+
+---
+
+## 🌍 Roadmap  
+
+We’re constantly improving Vision. Planned features include:  
+- 🔮 AI Style Transfer (turn images into art styles)  
+- 🎥 Video background remover (coming soon)  
+- 🤝 Team collaboration tools  
+- 📦 Export to multiple formats (WebP, SVG, PSD support)  
+
+You can follow updates and suggest features in the [Issues](https://github.com/your-username/vision/issues) section.  
+
+---
+
+## 🤝 Contributing  
 
 Contributions, issues, and feature requests are welcome!  
-Feel free to check the [issues page](https://github.com/your-username/vision/issues).  
 
 1. Fork the repo  
 2. Create a new branch (`git checkout -b feature/amazing-feature`)  
 3. Commit your changes (`git commit -m 'Add amazing feature'`)  
 4. Push to the branch (`git push origin feature/amazing-feature`)  
-5. Open a Pull Request  
+5. Open a Pull Request 🎉  
 
 ---
 
-## 📜 License
+## 📜 License  
 
-Distributed under the MIT License.  
+Distributed under the **MIT License**.  
 See `LICENSE` for more information.  
 
 ---
 
 <p align="center">  
 Made with ❤️ by [Your Name](https://github.com/your-username)  
-</p>
+</p>  
