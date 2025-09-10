@@ -1,6 +1,6 @@
 # 🌌 Vision — AI-Powered Image Editor  
 
-Vision is a modern **AI image editing platform** built with **React 19, Next.js 15, Tailwind CSS, Convex, Fabric.js, ImageKit, and Shadcn UI**.  
+Vision is a modern **AI image editing platform** built with **React 19, Next.js 15, Tailwind CSS, Convex, Clerk Billing, Fabric.js, ImageKit, and Shadcn UI**.  
 It helps you **create, edit, and enhance** your projects with advanced AI tools like **background removal, image extender, and smart retouching** — all inside a **sleek, responsive interface**.  
 
 <p align="center">
@@ -20,8 +20,9 @@ It helps you **create, edit, and enhance** your projects with advanced AI tools 
   - AI image extender  
   - Retouch & upscaler  
 - ☁️ **Cloud Sync** — Access your projects anywhere  
-- 🔒 **Secure Authentication** — User login & identity system  
-- 🌐 **Fast Media Delivery** — Powered by ImageKit CDN  
+- 🔒 **Authentication & Billing** — Powered by Clerk (secure auth + billing system)  
+- 🌐 **Fast Media Delivery** — Optimized with ImageKit CDN  
+- ⚡ **Realtime Backend** — Convex ensures smooth live collaboration  
 
 ---
 
@@ -33,6 +34,7 @@ It helps you **create, edit, and enhance** your projects with advanced AI tools 
 | **Next.js 15** | <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="32"/> | Full-stack React framework |
 | **Tailwind CSS** | <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="32"/> | Utility-first CSS framework |
 | **Convex** | <img src="https://avatars.githubusercontent.com/u/89614541?s=200&v=4" width="32"/> | Realtime serverless backend |
+| **Clerk** | <img src="https://avatars.githubusercontent.com/u/60850842?s=200&v=4" width="32"/> | Authentication & subscription billing |
 | **Fabric.js** | <img src="https://avatars.githubusercontent.com/u/905248?s=200&v=4" width="32"/> | Canvas-based editing |
 | **ImageKit** | <img src="https://www.vectorlogo.zone/logos/imagekitio/imagekitio-icon.svg" width="32"/> | Image optimization & CDN |
 | **Shadcn UI** | <img src="https://avatars.githubusercontent.com/u/139895814?s=200&v=4" width="32"/> | Accessible UI components |
@@ -49,17 +51,30 @@ Vision comes with two simple plans:
 | **Free** | $0    | Up to 3 projects · 20 exports/month · Crop & Resize · Basic adjustments   |
 | **Pro**  | $12/mo| Unlimited projects · Unlimited exports · All AI tools · Retouch & upscale |
 
-👉 Upgrade to **Pro** and unlock the full power of Vision’s AI editing suite.  
+👉 Billing & subscriptions are handled securely with **Clerk Billing**.  
 
 ---
 
 ## 🌍 Roadmap  
 
 Planned features include:  
-- 🔮 AI Style Transfer (turn images into art styles)  
-- 🎥 Video background remover  
-- 🤝 Team collaboration tools  
-- 📦 Export to multiple formats (WebP, SVG, PSD support)  
+- 🔮 AI Style Transfer (turn images into unique art styles)  
+- 🎥 AI Video Tools (background removal & frame editing)  
+- 🤝 Team collaboration workspaces  
+- 📦 Export in multiple formats (WebP, SVG, PSD support)  
+- 🧩 Plugin System (third-party AI models & filters)  
+- 📊 Project Analytics (track exports, AI tool usage, and more)  
+
+---
+
+## 📚 Why Vision?  
+
+- 🚀 **All-in-One Editing** — No need to juggle multiple apps. Vision combines essential editing tools with AI superpowers.  
+- 🔒 **Privacy First** — Secure auth, billing, and project storage with Clerk.  
+- ⚡ **Performance** — Optimized with Next.js 15, ImageKit CDN, and Convex realtime backend.  
+- 🎨 **Modern UI/UX** — Built with Shadcn UI & Tailwind CSS for a sleek, responsive design.  
+
+---
 
 ---
 
